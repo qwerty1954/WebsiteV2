@@ -1,8 +1,4 @@
-*[role=banner] {
-    background-color: darkcyan;
-}
-
-#sidenav {
+/* #sidenav {
     height: 100%;
     width: 13%;
     position: fixed;
@@ -21,7 +17,7 @@
 .navItem {
     color: blue;
     margin-left: 3%
-}
+} */
   
 #main {
     margin-left: 13%;
