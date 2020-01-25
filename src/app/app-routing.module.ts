@@ -10,7 +10,7 @@ const routes: Routes = [
   {path: 'connect-4', component: ConnectFourComponent},
   {path: 'tic-tac-toe', component: TicTacToeComponent},
   {path: 'beat-saber', component: BeatSaberComponent},
-  {path: '** ', component: PageNotFoundComponent}
+  {path: '**', component: PageNotFoundComponent},
 ]
 
 @NgModule({
