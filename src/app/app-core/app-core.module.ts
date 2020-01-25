@@ -5,12 +5,13 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { SidenavComponent } from './sidenav/sidenav.component';
+import { IntroductionComponent } from './introduction/introduction.component';
 
 // Custom Modules
 import { AppCoreRoutingModule } from './app-core-routing.module';
 
 @NgModule({
-  declarations: [HeaderComponent, FooterComponent, SidenavComponent],
+  declarations: [HeaderComponent, FooterComponent, SidenavComponent, IntroductionComponent],
   imports: [
     CommonModule,
     AppCoreRoutingModule
@@ -18,7 +19,8 @@ import { AppCoreRoutingModule } from './app-core-routing.module';
   exports: [
     HeaderComponent,
     FooterComponent,
-    SidenavComponent
+    SidenavComponent,
+    IntroductionComponent
   ]
 })
 export class AppCoreModule { }
