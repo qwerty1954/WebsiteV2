@@ -5,16 +5,33 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(135, 170, 250);
     overflow-x: hidden;
     padding-top: 20px;
+    border-radius: 0px 3px 0px 0px;
+    box-shadow: 3px 3px 5px black;
+    background: rgb(9,9,121);
+    background: linear-gradient(0deg, rgba(9,9,121,1) 0%, rgba(64,55,213,1) 0%, rgba(62,71,175,1) 20%, rgba(22,175,207,1) 100%);
 }
+
+/* .spacer {
+    height: 175%;
+} */
 
 #sidenavTitle {
     text-align: center;
 }
 
 .navItem {
-    color: blue;
-    margin-left: 3%
+    padding: 4px 8px 4px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+  
+.navItem:hover {
+    color: #f1f1f1;
+    margin-left: 3px;
+    text-decoration: underline;
 }
