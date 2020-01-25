@@ -9,10 +9,10 @@ import { TicTacToeComponent } from './tic-tac-toe/tic-tac-toe.component';
 import { BeatSaberComponent } from './beat-saber/beat-saber.component';
 
 const routes: Routes = [
+  {path: '', component: IntroductionComponent},
   {path: 'connect-4', component: ConnectFourComponent},
   {path: 'tic-tac-toe', component: TicTacToeComponent},
   {path: 'beat-saber', component: BeatSaberComponent},
-  {path: '', component: IntroductionComponent},
   {path: '**', component: PageNotFoundComponent}
 ]
 
