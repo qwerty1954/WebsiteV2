@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BeatSaberComponent } from './beat-saber.component';
+import { BeatSaberBaseComponent } from './beat-saber-base.component';
 
-describe('BeatSaberComponent', () => {
-  let component: BeatSaberComponent;
-  let fixture: ComponentFixture<BeatSaberComponent>;
+describe('BeatSaberBaseComponent', () => {
+  let component: BeatSaberBaseComponent;
+  let fixture: ComponentFixture<BeatSaberBaseComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ BeatSaberComponent ]
+      declarations: [ BeatSaberBaseComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(BeatSaberComponent);
+    fixture = TestBed.createComponent(BeatSaberBaseComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

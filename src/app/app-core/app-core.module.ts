@@ -9,12 +9,14 @@ import { IntroductionComponent } from './introduction/introduction.component';
 
 // Custom Modules
 import { AppCoreRoutingModule } from './app-core-routing.module';
+import { BeatSaberModule } from '../beat-saber/beat-saber.module';
 
 @NgModule({
   declarations: [HeaderComponent, FooterComponent, SidenavComponent, IntroductionComponent],
   imports: [
     CommonModule,
-    AppCoreRoutingModule
+    AppCoreRoutingModule,
+    BeatSaberModule
   ],
   exports: [
     HeaderComponent,
